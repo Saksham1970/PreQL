@@ -2,7 +2,7 @@
 
 PreQL is a library for linking MySql database with python without knowing much about MySQL language.
 
-### Installation
+## Installation
 
 ```sh
 pip install preql
