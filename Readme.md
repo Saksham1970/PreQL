@@ -6,11 +6,11 @@ PreQL is a library for linking MySql database with python without knowing much a
 ## Getting Started
 
 ```py
-from preql import User,Database,Table
+from preql import User, Database, Table
 
-root = User("localhost","root","root")
-library = Database(root,"library")
-books = Table(library,"books")
+root = User("localhost", "root", "root")
+library = Database(root, "library")
+books = Table(library, "books")
 
 ```
 
@@ -18,7 +18,3 @@ License
 ----
 
 MIT
-
-
-**Free Stuff, Hell Yeah!**
-
